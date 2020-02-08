@@ -25,7 +25,7 @@ namespace APIContagem.Controllers
                     Environment.MachineName,
                     Sistema = Environment.OSVersion.VersionString,
                     Variavel = configuration["TesteAmbiente"],
-                    Local = "Open Source RoadShow",
+                    Local = "Open Source RoadShow 2020",
                     TargetFramework = Assembly
                         .GetEntryAssembly()?
                         .GetCustomAttribute<TargetFrameworkAttribute>()?
